@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/ExternalApps/larsarve/develop/snmpsim/SnmpSimulator/SnmpSimulator.csproj": {}
+  },
+  "projects": {
+    "/Volumes/ExternalApps/larsarve/develop/snmpsim/SnmpSimulator/SnmpSimulator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/ExternalApps/larsarve/develop/snmpsim/SnmpSimulator/SnmpSimulator.csproj",
+        "projectName": "SnmpSimulator",
+        "projectPath": "/Volumes/ExternalApps/larsarve/develop/snmpsim/SnmpSimulator/SnmpSimulator.csproj",
+        "packagesPath": "/Volumes/ExternalApps/larsarve/.nuget/packages/",
+        "outputPath": "/Volumes/ExternalApps/larsarve/develop/snmpsim/SnmpSimulator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Volumes/ExternalApps/larsarve/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Lextm.SharpSnmpLib": {
+              "target": "Package",
+              "version": "[12.5.6, )"
+            },
+            "SnmpSharpNet": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

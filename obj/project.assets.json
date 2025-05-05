@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Lextm.SharpSnmpLib/12.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/SharpSnmpLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SharpSnmpLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SnmpSharpNet/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/SnmpSharpNet.dll": {}
+        },
+        "runtime": {
+          "lib/SnmpSharpNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lextm.SharpSnmpLib/12.5.6": {
+      "sha512": "VBNu75gmpoP7NF83QqqKWHKa+2pMG4dJV4fotvFL1HniWpvDy845psNu2cLBoihvq+CEtIHiyRYiKnUzm7c+Ew==",
+      "type": "package",
+      "path": "lextm.sharpsnmplib/12.5.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lextm.sharpsnmplib.12.5.6.nupkg.sha512",
+        "lextm.sharpsnmplib.nuspec",
+        "lib/net471/SharpSnmpLib.dll",
+        "lib/net471/SharpSnmpLib.pdb",
+        "lib/net471/SharpSnmpLib.xml",
+        "lib/net8.0/SharpSnmpLib.dll",
+        "lib/net8.0/SharpSnmpLib.pdb",
+        "lib/net8.0/SharpSnmpLib.xml",
+        "readme.md"
+      ]
+    },
+    "SnmpSharpNet/0.9.7": {
+      "sha512": "0xjVNdrIntHezvGyeGu2tAeERRW8xiwvmOMHMXLJtvSwsCzDPpXBDjhLR/H2gdhXVZScjH2pozoTPHXwObIUrw==",
+      "type": "package",
+      "path": "snmpsharpnet/0.9.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/SnmpSharpNet.dll",
+        "snmpsharpnet.0.9.7.nupkg.sha512",
+        "snmpsharpnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Lextm.SharpSnmpLib >= 12.5.6",
+      "SnmpSharpNet >= 0.9.7"
+    ]
+  },
+  "packageFolders": {
+    "/Volumes/ExternalApps/larsarve/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Volumes/ExternalApps/larsarve/develop/snmpsim/SnmpSimulator/SnmpSimulator.csproj",
+      "projectName": "SnmpSimulator",
+      "projectPath": "/Volumes/ExternalApps/larsarve/develop/snmpsim/SnmpSimulator/SnmpSimulator.csproj",
+      "packagesPath": "/Volumes/ExternalApps/larsarve/.nuget/packages/",
+      "outputPath": "/Volumes/ExternalApps/larsarve/develop/snmpsim/SnmpSimulator/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Volumes/ExternalApps/larsarve/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Lextm.SharpSnmpLib": {
+            "target": "Package",
+            "version": "[12.5.6, )"
+          },
+          "SnmpSharpNet": {
+            "target": "Package",
+            "version": "[0.9.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SnmpSharpNet 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SnmpSharpNet",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
