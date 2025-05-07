@@ -1,0 +1,17 @@
+{
+    "Server": {
+        "IpAddress": "0.0.0.0",
+        "Port": 161,
+        "Community": "public"
+    },
+    "Paths": {
+        "DevicesDirectory": "devices",
+        "CustomDirectory": "custom"
+    },
+    "Logging": {
+        "LogLevel": "Information",
+        "LogToConsole": true,
+        "LogToFile": false,
+        "LogFilePath": "logs/snmpsim.log"
+    }
+} 
