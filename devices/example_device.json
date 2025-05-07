@@ -1,0 +1,56 @@
+{
+    "System": {
+        "Description": "Example Network Device",
+        "Uptime": 1234567,
+        "Contact": "admin@example.com",
+        "Name": "Example-Device",
+        "Location": "Data Center 1",
+        "Services": 72
+    },
+    "Interfaces": {
+        "1": {
+            "Description": "GigabitEthernet0/1",
+            "Type": 6,
+            "Mtu": 1500,
+            "Speed": 1000000000,
+            "PhysAddress": "00:11:22:33:44:55",
+            "AdminStatus": 1,
+            "OperStatus": 1,
+            "LastChange": 0,
+            "InOctets": 1000000,
+            "InUcastPkts": 1000,
+            "InNUcastPkts": 100,
+            "InDiscards": 0,
+            "InErrors": 0,
+            "InUnknownProtos": 0,
+            "OutOctets": 2000000,
+            "OutUcastPkts": 2000,
+            "OutNUcastPkts": 200,
+            "OutDiscards": 0,
+            "OutErrors": 0,
+            "OutQLen": 0
+        },
+        "2": {
+            "Description": "GigabitEthernet0/2",
+            "Type": 6,
+            "Mtu": 1500,
+            "Speed": 1000000000,
+            "PhysAddress": "00:11:22:33:44:56",
+            "AdminStatus": 1,
+            "OperStatus": 1,
+            "LastChange": 0,
+            "InOctets": 1500000,
+            "InUcastPkts": 1500,
+            "InNUcastPkts": 150,
+            "InDiscards": 0,
+            "InErrors": 0,
+            "InUnknownProtos": 0,
+            "OutOctets": 2500000,
+            "OutUcastPkts": 2500,
+            "OutNUcastPkts": 250,
+            "OutDiscards": 0,
+            "OutErrors": 0,
+            "OutQLen": 0
+        }
+    }
+} 
